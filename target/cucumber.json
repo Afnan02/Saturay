@@ -1,0 +1,67 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User should be able to click on the contact link",
+        "description": "",
+        "id": "contact-functionatity;user-should-be-able-to-click-on-the-contact-link",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7649611200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "ContactSteps.i_navigate_througe(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 506924100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on the contact link",
+            "match": {
+              "location": "ContactSteps.click_on_the_contact_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Verify user in the contact page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Contact Functionatity",
+    "description": "This Feature deal with the contact functionality",
+    "id": "contact-functionatity",
+    "keyword": "Feature",
+    "uri": "Contact.feature"
+  }
+]
